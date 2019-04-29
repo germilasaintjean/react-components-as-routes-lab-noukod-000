@@ -8,7 +8,7 @@ const NavBar = () => {
     <NavLink to="/Movies" exact style={link}>
     <NavLink to="/Directors" exact style={link}>
     <NavLink to="/Actors" exact style={link}>
-    </div>
+    </div>;
   );
 };
 

@@ -13,16 +13,16 @@ import Movies from '../components/Movies';
 const App = (props) => {
   return (
     <Router>
-        {
-          const Navbar = () =>
-          <div>
-          <NavLink to="/" exact style={link}>Home</NavLink>
-          <NavLink to="/Movies" exact style={link}>Movies</NavLink>
-          <NavLink to="/Directors" exact style={link}>Directors</NavLink>
-          <NavLink to="/Actors" exact style={link}>Actors/NavLink>
-        }
-        </div>
-  </Navbar>
+    ReactDOM.render((
+<Router>
+  <React.Fragment>
+    <Navbar />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/Movies" component={Movies} />
+    <Route exact path="/Directors" component={Directors} />
+    <Route exact path="/Actors" component={Actors} />
+  </React.Fragment>
+</Router>),
   </Router>
   );
 };

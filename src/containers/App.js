@@ -22,7 +22,7 @@ const App = (props) => {
           <NavLink to="/Actors" exact style={link}>Actors/NavLink>
         }
         </div>
-  </navbar>
+  </Navbar>
   </Router>
   );
 };

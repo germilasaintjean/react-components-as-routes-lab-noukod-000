@@ -21,9 +21,9 @@ const App = (props) => {
           <NavLink to="/Directors" exact style={link}>Directors</NavLink>
           <NavLink to="/Actors" exact style={link}>Actors/NavLink>
         }
+        </div>
   </navbar>
-  </div>
-    </Router>
+  </Router>
   );
 };
 
